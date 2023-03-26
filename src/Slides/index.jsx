@@ -1,12 +1,12 @@
 import React from 'react';
 import Title from './Title';
-import AnotherSlide from './AnotherSlide';
+import Introduction from './Introduction';
 
 export default function Slides() {
   return (
     <>
       <Title />
-      <AnotherSlide />
+      <Introduction />
     </>
   );
 }

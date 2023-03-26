@@ -12,6 +12,7 @@ export default function Deck({ options, children }) {
   return (
     <div className="reveal">
       <div className="slides">{children}</div>
+      <h6 className='author'>@Wh4rp</h6>
     </div>
   );
 }

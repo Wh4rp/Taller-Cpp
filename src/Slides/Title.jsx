@@ -4,7 +4,8 @@ import Slide from '../Components/RevealComponents/Slide';
 export default function Title() {
   return (
     <Slide>
-      <p>Title of Presentation</p>
+      <h1>Taller de C++</h1>
+      <sub>para Programación Competitiva</sub>
     </Slide>
   );
 }

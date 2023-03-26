@@ -51,3 +51,9 @@ em {
   width: 500px;
   text-align: left;
 }
+
+.author {
+  position: fixed;
+  bottom: 0;
+  left: 2.5vw;
+}
