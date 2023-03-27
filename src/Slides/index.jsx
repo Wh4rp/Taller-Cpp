@@ -1,12 +1,18 @@
 import React from 'react';
 import Title from './Title';
-import Introduction from './Introduction';
+import Compilation from './Compilation';
+import Libraries from './Libraries';
+import IntMain from './IntMain';
+import IOstream from './IOstream';
 
 export default function Slides() {
   return (
     <>
       <Title />
-      <Introduction />
+      <Compilation />
+      <Libraries />
+      <IntMain />
+      <IOstream />
     </>
   );
 }
