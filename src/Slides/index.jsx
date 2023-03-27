@@ -5,6 +5,7 @@ import Installation from './Installation';
 import HelloWorld from './HelloWorld';
 import RunAndCompile from './RunAndCompile';
 import IOstream from './IOstream';
+import DataTypes from './DataTypes';
 
 export default function Slides() {
   return (
@@ -15,6 +16,7 @@ export default function Slides() {
       <HelloWorld />
       <RunAndCompile />
       <IOstream />
+      <DataTypes />
     </>
   );
 }
