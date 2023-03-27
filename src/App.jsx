@@ -5,7 +5,6 @@ import Slides from './Slides';
 
 import 'reveal.js/dist/reveal.css';
 import 'reveal.js/dist/theme/black.css';
-import 'reveal.js/plugin/highlight/monokai.css';
 import './App.css';
 
 function App() {

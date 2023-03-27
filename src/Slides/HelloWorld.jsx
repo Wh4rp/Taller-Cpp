@@ -1,27 +1,24 @@
 import Slide from "../Components/RevealComponents/Slide";
 import Cpp from "../Components/Highlight/Cpp";
 
-const ioSampleCode = `
+const helloWorld = `
 #include <iostream>
 
 using namespace std;
 
 int main() {
-
-    int a, b;
-    cin >> a >> b;
-    cout << a + b << endl;
+    
+    cout << "Hello World!" << endl;
     
     return 0;
 }
 `;
 
-
-export default function IOstream() {
+export default function HelloWorld() {
     return (
         <Slide>
-            <h3>cin y cout</h3>
-            <Cpp code={ioSampleCode} />
+            <h2>helloWorld.cpp</h2>
+            <Cpp code={helloWorld} />
         </Slide>
     )
 }
